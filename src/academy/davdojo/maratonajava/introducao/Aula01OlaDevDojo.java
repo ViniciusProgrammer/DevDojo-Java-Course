@@ -3,7 +3,7 @@ package academy.davdojo.maratonajava.introducao;
 /**
  * Isso é um comentário utilizando <strong>javadoc</strong> podemos usar até html aqui
  */
-public class OlaDevDojo {
+public class Aula01OlaDevDojo {
     // Comentários podem ser adicionados aqui como linha feito esse utilizando barra barra //
 
     /*
