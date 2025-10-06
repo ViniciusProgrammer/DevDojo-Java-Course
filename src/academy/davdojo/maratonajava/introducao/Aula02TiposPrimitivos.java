@@ -17,14 +17,14 @@ public class Aula02TiposPrimitivos {
          * Tipo double
          */
 
-        double salario = 1000;
+        double salario = 1000.0;
         System.out.println("Salário: " + salario);
 
         /**
          * Tipo float
          */
 
-        float salario2 = 1500f;
+        float salario2 = 1500.0F;
         System.out.println("Salário usando floar: " + salario2);
 
         /**
@@ -61,5 +61,27 @@ public class Aula02TiposPrimitivos {
 
         char sexo = 'M';
         System.out.println("Sexo: " + sexo);
+
+        /**
+         * Casting
+         * podem ter perca de informação
+         * Não é uma prática tão boa e devemos evitar
+         */
+
+        int valorInteiro = (int) 10000000000L;
+        System.out.println(valorInteiro);
+
+        float salario3 = (float) 100000.0;
+
+        /**
+         *  Tipo String sabemos que é uma classe e nem deviamos colocar nessa classe de tipos primitivos
+         *  mas é algo tão comum no dia a dia que resolvemos colocar junto com os tipos primitivos aqui
+         */
+
+        String frase = "Aqui podemos adicionar frases grandes também";
+        System.out.println(frase);
+
+        String nome = "Goku";
+        System.out.println(nome);
     }
 }
