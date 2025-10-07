@@ -1,6 +1,6 @@
 package academy.davdojo.maratonajava.introducao;
 
-public class Aula93TiposPrimitivosExercicio {
+public class Aula03TiposPrimitivosExercicio {
     public static void main(String[] args) {
         String nome = "Kirito";
         String endereco = "Avenida Sebastião Flores, n° 1044";
