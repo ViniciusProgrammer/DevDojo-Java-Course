@@ -1,4 +1,4 @@
-package academy.davdojo.maratonajava.introducao;
+package academy.devdojo.maratonajava.introducao;
 
 /**
  * Isso é um comentário utilizando <strong>javadoc</strong> podemos usar até html aqui
