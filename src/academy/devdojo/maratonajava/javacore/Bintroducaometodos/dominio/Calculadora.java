@@ -37,6 +37,24 @@ public class Calculadora {
         System.out.println("Dentro do alteraDoisNumeros");
         System.out.println("Número1 = " + numero1);
         System.out.println("Número2 = " + numero2);
+    }
 
+    public void somaArray(int [] numeros) {
+        int soma = 0;
+
+        for (int num : numeros) {
+            soma += num;
+        }
+
+        System.out.println("Soma = " + soma);
+    }
+
+    public void somaVarargs(int ... numeros) {
+        int soma = 0;
+
+        for (int num : numeros) {
+            soma += num;
+        }
+        System.out.println("Soma = " + soma);
     }
 }
