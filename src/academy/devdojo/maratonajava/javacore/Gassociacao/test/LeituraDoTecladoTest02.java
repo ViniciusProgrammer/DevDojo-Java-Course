@@ -1,0 +1,22 @@
+package academy.devdojo.maratonajava.javacore.Gassociacao.test;
+
+import java.util.Scanner;
+
+public class LeituraDoTecladoTest02 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Grande Software de previsão do futuro");
+        System.out.println("Digite a sua pergunta e eu responderei sim ou não");
+
+        String pergunta = scanner.nextLine();
+
+        if (pergunta.charAt(0) == ' ') {
+            System.out.println("Sim");
+        } else {
+            System.out.println("Não");
+        }
+
+        scanner.close();
+    }
+}
