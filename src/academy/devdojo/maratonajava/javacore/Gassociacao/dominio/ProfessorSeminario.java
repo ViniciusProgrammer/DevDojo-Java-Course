@@ -6,15 +6,23 @@ public class ProfessorSeminario {
     private Local local;
     private Seminario [] seminarios;
 
-    public ProfessorSeminario(String nome, String especialiade, Local local, Seminario[] seminarios) {
+    public ProfessorSeminario(String nome) {
+        this.nome = nome;
+    }
+
+    public ProfessorSeminario(String nome, String especialiade) {
+        this.nome = nome;
+        this.especialiade = especialiade;
+    }
+
+    public ProfessorSeminario(String nome, String especialiade, Local local) {
         this.nome = nome;
         this.especialiade = especialiade;
         this.local = local;
-        this.seminarios = seminarios;
     }
 
     public String getNome() {
-        return especialiade;
+        return nome;
     }
 
     public void setNome(String nome) {
