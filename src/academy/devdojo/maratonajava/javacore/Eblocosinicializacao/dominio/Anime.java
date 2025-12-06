@@ -5,16 +5,12 @@ public class Anime {
     private int[] episodios;
 
     /**
-     * 1 - Alocado o espaço de memória para o objeto
-     * 2 - Cada atributo de classe é criado e inicializado com os valores padrão ou o que for passado aqui dentro da classe
-     * 3 - O bloco de inicialização é executado
-     * 4 - O construtor é executado
+     * 0 - Bloco de inicializção estático é executado quando a JVM carrega a classe
+     * 1 - Alocado espaço em mem´roa pro objeto
+     * 2 - Cada atributo de classe é criado e inicializado com valores default ou o que for passado
+     * 3 - Bloco de inicialização é executado
+     * 4 - Construtor é executado
      */
-
-    /*
-    * Os blocos de inicialização acontecem antes mesmo do construtor ser executado
-    * de instância ou não estático
-    */
 
     {
         System.out.println("Dentro do bloco de inicialização");
